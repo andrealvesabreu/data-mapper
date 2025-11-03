@@ -4,7 +4,8 @@ build:
   tools:
     python: "3.13"
   commands:
-    - $VIRTUAL_ENV/bin/phpdoc-to-rst generate \
+    - export PATH=$PATH:$READTHEDOCS_VIRTUALENV_PATH/bin
+    - phpdoc-to-rst generate \
       --source src/ \
       --target docs/api/ \
       --namespace "Inspire\DataMapper"
