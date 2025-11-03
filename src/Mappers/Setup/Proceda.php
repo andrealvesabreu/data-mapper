@@ -336,9 +336,9 @@ final class Proceda extends Main
     /**
      * @param string $type
      *
-     * @return [type]
+     * @return string
      */
-    public function getInternalType(string $type)
+    public function getInternalType(string $type): string
     {
         return array_flip($this->mapType)[$type] ?? 'str';
     }

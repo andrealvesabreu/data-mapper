@@ -121,9 +121,9 @@ abstract class Base
      * @param array $targetModel Modelo (esquema) com especificaão de estrutura para compilação de dados
      * @param array|string $data Dados para extração
      *
-     * @return [type]
+     * @return string|null
      */
-    public static function convert(array $sourceModel, array  $targetModel, array|string $data, ?Closure $fn = null)
+    public static function convert(array $sourceModel, array  $targetModel, array|string $data, ?Closure $fn = null): ?string
     {
         /**
          * Extração de dados
@@ -204,9 +204,9 @@ abstract class Base
     /**
      * Devolve dados em formato intermediário, após extração do datasource (modelo de origem) em coleções de objetos Type
      *
-     * @return [type]
+     * @return array
      */
-    public static function getMappedData()
+    public static function getMappedData(): array
     {
         return self::$source->sourceMap;
     }

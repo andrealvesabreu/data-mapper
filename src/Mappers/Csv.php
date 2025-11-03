@@ -15,7 +15,7 @@ use Inspire\DataMapper\Mappers\Setup\{
 };
 
 /**
- * Classe para extração ou compilação de dados em formato CSVX
+ * Classe para extração ou compilação de dados em formato CSV
  *
  * @author André Alves <aalvesabreu.2010@gmail.com>
  * @since 1.0.0
