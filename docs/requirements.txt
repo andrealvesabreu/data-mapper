@@ -1,0 +1,4 @@
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-phpdomain
+doxyphp2sphinx
