@@ -15,9 +15,8 @@ release = '1.0.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx_rtd_theme', # Often added for the Read the Docs theme
+    'sphinx_rtd_theme',
     'sphinxcontrib.phpdomain',
-    # You may add 'doxyphp2sphinx' or similar tool if used
 ]
 
 templates_path = ['_templates']
@@ -31,3 +30,4 @@ language = 'pt'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 primary_domain = 'php'
+sys.path.insert(0, os.path.abspath('.'))
