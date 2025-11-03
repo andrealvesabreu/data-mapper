@@ -4,7 +4,7 @@ build:
   tools:
     python: "3.13"
   commands:
-    - phpdoc-to-rst generate \
+    - python -m phpdoc_to_rst generate \
       --source src/ \
       --target docs/api/ \
       --namespace "Inspire\DataMapper"
