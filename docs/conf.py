@@ -30,4 +30,3 @@ language = 'pt'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 primary_domain = 'php'
-sys.path.insert(0, os.path.abspath('.'))
