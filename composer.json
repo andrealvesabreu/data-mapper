@@ -1,0 +1,38 @@
+{
+    "name": "inspire/data-mapper",
+    "description": "Library to extract data from source and convert to destination format",
+    "type": "library",
+    "require": {
+        "nicmart/tree": "^0.9",
+        "jackiedo/xml-array": "*",
+        "illuminate/support": "^12",
+        "clemdesign/php-mask": "1.0.0",
+        "symfony/expression-language":"^7.3"
+    },
+    "require-dev": {
+        "pestphp/pest": "^4"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Inspire\\DataMapper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "André Alves",
+            "email": "aalvesabreu.2010@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

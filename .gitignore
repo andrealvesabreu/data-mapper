@@ -1,0 +1,11 @@
+!.gitignore
+nbproject/private/private.properties
+nbproject/project.properties
+nbproject/project.xml
+nbproject/*
+.idea/*
+.fleet/*
+.vscode/
+vendor
+app/vendor
+docker/postgres_data
